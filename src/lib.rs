@@ -1,10 +1,10 @@
-pub mod client;
-pub mod errors;
-pub mod five_minute;
-pub mod latest;
-pub mod mapping;
-pub mod one_hour;
-pub mod timeserie;
+mod client;
+mod errors;
+mod five_minute;
+mod latest;
+mod mapping;
+mod one_hour;
+mod timeserie;
 
 pub use client::Client;
 pub use latest::latest;
